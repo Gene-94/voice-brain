@@ -1,0 +1,10 @@
+{
+  "id": "voice-brain",
+  "name": "Voice Brain",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Local voice-first knowledge assistant. Whisper transcribes, Gemma (Ollama) reasons, your vault remembers. Zero cloud.",
+  "author": "yev",
+  "authorUrl": "https://github.com/yev",
+  "isDesktopOnly": false
+}

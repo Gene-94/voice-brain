@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Voice Brain Capture</string>
+    <string name="tile_label">Voice Brain</string>
+    <string name="listening">🎙️ Listening… speak now</string>
+    <string name="recording">🔴 Recording… pause to finish</string>
+    <string name="hint_server">Server URL (http://host:47799/api/capture)</string>
+    <string name="hint_token">Auth token</string>
+    <string name="hint_syncthing">Optional: Syncthing offline folder path</string>
+    <string name="test_connection">Test connection</string>
+    <string name="scan_lan">Scan for laptop</string>
+    <string name="save">Save</string>
+</resources>

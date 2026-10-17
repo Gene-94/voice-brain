@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.VoiceBrain" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/ob_bg</item>
+        <item name="android:statusBarColor">@color/ob_statusbar</item>
+        <item name="android:navigationBarColor">@color/ob_bg</item>
+        <item name="android:textColorPrimary">@color/ob_text</item>
+        <item name="android:textColorHint">@color/ob_muted</item>
+        <item name="colorAccent">@color/ob_accent</item>
+        <item name="android:colorAccent">@color/ob_accent</item>
+    </style>
+
+    <style name="Theme.VoiceBrain.Translucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

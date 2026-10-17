@@ -1,0 +1,9 @@
+[Unit]
+Description=Voice Brain — nightly stats timer (23:59)
+
+[Timer]
+OnCalendar=*-*-* 23:59
+Persistent=true
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Obsidian dark palette -->
+    <color name="ob_bg">#1E1E1E</color>
+    <color name="ob_statusbar">#161616</color>
+    <color name="ob_surface">#262626</color>
+    <color name="ob_surface_hi">#2F2F2F</color>
+    <color name="ob_border">#3A3A3A</color>
+    <color name="ob_text">#DADADA</color>
+    <color name="ob_text_bright">#F2F2F2</color>
+    <color name="ob_muted">#9B9B9B</color>
+    <color name="ob_accent">#8B6DF1</color>
+    <color name="ob_accent_dark">#6C4FD8</color>
+</resources>

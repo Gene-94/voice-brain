@@ -1,0 +1,8 @@
+[Unit]
+Description=Voice Brain — nightly stats generation
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/voice-brain generate-stats
+# Battery guard: skip the 9b batch job on low battery (plan §16.A8)
+ConditionACPower=true

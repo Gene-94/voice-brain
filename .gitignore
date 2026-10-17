@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+.venv/
+*.pyc
+.pytest_cache/
+
+# Node / plugin
+node_modules/
+voice-brain-plugin/main.js
+voice-brain-plugin/styles.css
+
+# Android
+voice-brain-android/app/build/
+voice-brain-android/.gradle/
+voice-brain-android/build/
+voice-brain-android/local.properties
+*.apk
+*.keystore
+
+# models & binaries
+*.bin
+*.gguf
+
+# OS
+.DS_Store
+.idea/

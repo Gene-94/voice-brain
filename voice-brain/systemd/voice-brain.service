@@ -1,0 +1,13 @@
+[Unit]
+Description=Voice Brain — local voice assistant for your Obsidian vault
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+Environment=PYTHONUNBUFFERED=1
+ExecStart=%h/.local/bin/voice-brain daemon
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=graphical-session.target
